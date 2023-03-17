@@ -27,7 +27,7 @@ function Menu() {
 
         <li className="nav-item">
           <Link to="/" className="nav-link">
-            <i className="nav-icon fas fa-shopping-cart"></i>
+            <i className="nav-icon fas fa-store"></i>
             <p>
               Compras
             </p>
@@ -35,9 +35,17 @@ function Menu() {
         </li>
         <li className="nav-item">
           <Link to="/itens" className="nav-link">
-            <i className="nav-icon fas fa-list" />
+            <i className="nav-icon fas fa-list-ol" />
             <p>
-              Itens Compra
+              Produtos
+            </p>
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link to="/mensal" className="nav-link">
+            <i className="nav-icon fas fa-stream" />
+            <p>
+              Categotia
             </p>
           </Link>
         </li>
@@ -45,7 +53,7 @@ function Menu() {
           <Link to="/mensal" className="nav-link">
             <i className="nav-icon far fa-calendar-alt" />
             <p>
-              Compras Mês
+              Histórico decompras
             </p>
           </Link>
         </li>
